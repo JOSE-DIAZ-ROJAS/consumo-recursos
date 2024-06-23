@@ -27,8 +27,8 @@ let valores = Object.values(data);
 valores.forEach((element)=>{
 
 
-imagenes = [...imagenes, element.fotoUrl];
-description = [...description,element.descripcion];
+imagenes.push(element.fotoUrl);
+description.push(element.descripcion);
 
 
 });
